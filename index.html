@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/style-general.css">
         <link rel="stylesheet" href="css/style-titulo.css">
         <link rel="stylesheet" href="css/style-intermedio1.css">
+        <link rel="stylesheet" href="css/style-mod1.css">
     </head>
 
     <body>
@@ -18,10 +19,42 @@
 
         <section class="intermedio1">
             <div class="cartelito">
-                <p>Instagram es como un casino, te mantiene enganchado con cada desliz, buscando la recompensa perfecta.<br>Para entenderlo hay que saber como funciona el juego ¡Y cómo podés salir ganando!
-                </p>
+                <p>Instagram es como un casino, te mantiene enganchado con cada desliz, buscando la recompensa perfecta.<br>Para entenderlo hay que saber como funciona el juego ¡Y cómo podés salir ganando!</p>
             </div>
         </section>
-    </body>
 
+        <section class="modulo1">
+            <div class="gradientes">
+                <img src="res/instajack.png" class="instajack">
+                <!--<div class="mesa"></div>-->
+                <img src="res/mesa0.png" class="mesa" id="mesa0">
+                    <p class="cartel-mod1" id="mod1-cartel0">Estás en una mesa de blackjack y el crupier (sistema de recomendación) reparte cartas (contenido/publicaciones) que parecen hechas para vos. ¿Cómo lo hace?<br>Para averiguarlo hay que jugar.</p>
+                <img src="res/mesa1.png" class="mesa" id="mesa1" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel1" style="display: none">El croupier es muy observador. Apenas te sentás, se fija de dónde sos, tu edad, con qué género te identificás, etc ¡Pero la diversión empieza cuando apostás!</p>
+                <img src="res/mesa2.png" class="mesa" id="mesa2" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel2" style="display: none">¡EMPEZASTE BIEN! Apostás y pedis otra carta<br>(Das un Me Gusta y seguís mirando)</p>
+                <img src="res/mesa3.png" class="mesa" id="mesa3" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel3" style="display: none">Parás y apostás a lo seguro. ¡Tenés justo la carta que necesitabas!<br>(Te detenés en una publicación y hasta la guardás para después)</p>
+                <img src="res/mesa4.png" class="mesa" id="mesa4" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel4" style="display: none">¡APOSTAS EN GRADNE!<br>(Seguís con una carta nueva)</p>
+                <img src="res/mesa5.png" class="mesa" id="mesa5" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel5" style="display: none">La carta te decepcionó y no apostás.<br>(El contenido no te interesa y no interactuás)</p>
+                <img src="res/mesa6.png" class="mesa" id="mesa6" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel6" style="display: none">El croupier toma nota de todas tus acciones, así en la próxima mano ya sabe que cartas darte para mantenerte interesadx.</p>
+                <img src="res/mesa7.png" class="mesa" id="mesa7" style="display: none;">
+                    <p class="cartel-mod1" id="mod1-cartel7" style="display: none">Cada mano que jugás esta pensada para mantere en la mesa, haciéndote sentir que estás a punto de ganar. Pero siempre terminás teniendo que pedir otra carta.<br>(Seguís consumiendo contenido)</p>
+                <button class="jugar" id="mod1-jugar">Jugar</button>
+                <div class="container-funcionalidades" style="display: none;" id="container-funcionalidades">
+                    <button class="boton-func" style="background: url('/res/boton-func0-unselect.png') no-repeat;" id="bot-func0"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func1-unselect.png') no-repeat;" id="bot-func1"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func2-unselect.png') no-repeat;" id="bot-func2"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func3-unselect.png') no-repeat;" id="bot-func3"></button>
+                </div>
+                <button class="continuar-mod1" style="display: none" id="boton-continuar-mod1"></button>
+                <button class="restart-mod1" style="display: none" id="boton-restart-mod1"></button>
+            </div>
+        </section>
+
+    </body>
+    <script src="/js/moduo1.js"></script>
 </html>
