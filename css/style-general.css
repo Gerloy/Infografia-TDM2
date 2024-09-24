@@ -6,3 +6,15 @@ body{
 	margin: 0%;
 	background-color: #000000;
 }
+
+.footer{
+	margin-top: 5vw;
+}
+
+.link{
+	color: #FFFFFF;
+	font-family: Cambria;
+	font-size: 1.5vw;
+	margin-left: 5vw;
+	margin-top: 10vw;
+}

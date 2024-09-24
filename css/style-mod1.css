@@ -1,5 +1,5 @@
 .modulo1{
-    background: url("../res/Fondo-mod1.png") no-repeat;
+    background: url("../res/fondo-mod1.png") no-repeat;
     background-size: fill;
     /*background: linear-gradient(to bottom, #000000FF 0%, #00000000 10%);
     background: linear-gradient(to bottom, #000000FF 100%, #00000000 90%);*/
@@ -9,7 +9,7 @@
     margin: 0px;
 }
 
-.gradientes{
+.gradientes1{
     margin: 0px;
     padding: 0px;
     background: linear-gradient(to bottom, #000000FF 0%, #00000000 20%, #00000000 80%, #000000FF 100%);
@@ -84,8 +84,8 @@ button.continuar-mod1{
     border: none;
     width: 5vw;
     height: 4vw;
-    position: fixed;
-    margin-top: -60%;
+    position: absolute;
+    margin-top: 25%;
     margin-left: 40%;
 }
 
@@ -95,7 +95,27 @@ button.restart-mod1{
     border: none;
     width: 5vw;
     height: 4vw;
-    position: fixed;
-    margin-top: -60%;
+    position: absolute;
+    margin-top: 25%;
     margin-left: 40%;
+}
+
+.boton-volver{
+    background:  url("../res/flecha-atras.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 1vw;
+    height: 1.25vw;
+    position: absolute;
+    margin-left: 2vw;
+}
+
+.boton-salir{
+    background:  url("../res/boton-salir.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 1.2vw;
+    height: 1.65vw;
+    position: absolute;
+    margin-left: 96vw;
 }

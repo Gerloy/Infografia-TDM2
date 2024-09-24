@@ -3,12 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Infografia-TDM2</title>
+        <title>Infografía-TDM2</title>
         <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="css/style-general.css">
         <link rel="stylesheet" href="css/style-titulo.css">
-        <link rel="stylesheet" href="css/style-intermedio1.css">
+        <link rel="stylesheet" href="css/style-intermedio.css">
         <link rel="stylesheet" href="css/style-mod1.css">
+        <link rel="stylesheet" href="css/style-mod2.css">
+        <link rel="stylesheet" href="css/style-mod3.css">
+        <link rel="stylesheet" href="css/tipografias.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
@@ -17,44 +24,182 @@
            <img src="res/flecha-inicio.png" class="flecha-inicio"> 
         </section>
 
-        <section class="intermedio1">
+        <section class="intermedio">
             <div class="cartelito">
                 <p>Instagram es como un casino, te mantiene enganchado con cada desliz, buscando la recompensa perfecta.<br>Para entenderlo hay que saber como funciona el juego ¡Y cómo podés salir ganando!</p>
             </div>
         </section>
 
         <section class="modulo1">
-            <div class="gradientes">
-                <img src="res/instajack.png" class="instajack">
-                <!--<div class="mesa"></div>-->
+            <div class="gradientes1">
+                <button class="boton-volver" id="boton-volver-mod1" style="display: none;"></button>
+                <button class="boton-salir" id="boton-salir-mod1" style="display: none;"></button>
+                <img src="res/instajack.png" class="instajack" id="instajack">
+
                 <img src="res/mesa0.png" class="mesa" id="mesa0">
-                    <p class="cartel-mod1" id="mod1-cartel0">Estás en una mesa de blackjack y el crupier (sistema de recomendación) reparte cartas (contenido/publicaciones) que parecen hechas para vos. ¿Cómo lo hace?<br>Para averiguarlo hay que jugar.</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel0">Estás en una mesa de blackjack y el crupier reparte cartas que parecen hechas para vos. ¿Cómo lo hace?<br>Para averiguarlo hay que jugar.</p>
                 <img src="res/mesa1.png" class="mesa" id="mesa1" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel1" style="display: none">El croupier es muy observador. Apenas te sentás, se fija de dónde sos, tu edad, con qué género te identificás, etc ¡Pero la diversión empieza cuando apostás!</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel1" style="display: none">El croupier es muy observador. Apenas te sentás, se fija de dónde sos, tu edad, con qué género te identificás, etc ¡Pero la diversión empieza cuando apostás!</p>
                 <img src="res/mesa2.png" class="mesa" id="mesa2" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel2" style="display: none">¡EMPEZASTE BIEN! Apostás y pedis otra carta<br>(Das un Me Gusta y seguís mirando)</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel2" style="display: none">Empezaste bien, con tu Me Gusta postás y pedis otra carta</p>
                 <img src="res/mesa3.png" class="mesa" id="mesa3" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel3" style="display: none">Parás y apostás a lo seguro. ¡Tenés justo la carta que necesitabas!<br>(Te detenés en una publicación y hasta la guardás para después)</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel3" style="display: none">Parás y apostás a lo seguro. Tenés justo la carta que necesitabas<br>Guardala para después.</p>
                 <img src="res/mesa4.png" class="mesa" id="mesa4" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel4" style="display: none">¡APOSTAS EN GRADNE!<br>(Seguís con una carta nueva)</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel4" style="display: none">Apostás en grande siguiendo una cuenta nueva.</p>
                 <img src="res/mesa5.png" class="mesa" id="mesa5" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel5" style="display: none">La carta te decepcionó y no apostás.<br>(El contenido no te interesa y no interactuás)</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel5" style="display: none">El contenido ya no te interesa y dejás de apostar</p>
                 <img src="res/mesa6.png" class="mesa" id="mesa6" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel6" style="display: none">El croupier toma nota de todas tus acciones, así en la próxima mano ya sabe que cartas darte para mantenerte interesadx.</p>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel6" style="display: none">El croupier toma nota de todas tus reacciones, así en la próxima mano ya sabe que cartas darte para mantenerte interesadx.</p>
                 <img src="res/mesa7.png" class="mesa" id="mesa7" style="display: none;">
-                    <p class="cartel-mod1" id="mod1-cartel7" style="display: none">Cada mano que jugás esta pensada para mantere en la mesa, haciéndote sentir que estás a punto de ganar. Pero siempre terminás teniendo que pedir otra carta.<br>(Seguís consumiendo contenido)</p>
-                <button class="jugar" id="mod1-jugar">Jugar</button>
+                    <p class="cartel-mod1 syne-regular" id="mod1-cartel7" style="display: none">Cada mano que jugás esta pensada para mantere en la mesa, haciéndote sentir que estás a punto de ganar, pero siempre terminás teniendo que pedir otra carta.<br>(Seguís consumiendo contenido)</p>
+                <button class="jugar" style="font-family: roboto;" id="mod1-jugar">Jugar</button>
                 <div class="container-funcionalidades" style="display: none;" id="container-funcionalidades">
-                    <button class="boton-func" style="background: url('/res/boton-func0-unselect.png') no-repeat;" id="bot-func0"></button>
-                    <button class="boton-func" style="background: url('/res/boton-func1-unselect.png') no-repeat;" id="bot-func1"></button>
-                    <button class="boton-func" style="background: url('/res/boton-func2-unselect.png') no-repeat;" id="bot-func2"></button>
-                    <button class="boton-func" style="background: url('/res/boton-func3-unselect.png') no-repeat;" id="bot-func3"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func0-unselect.png') no-repeat;" id="bot-func0" onmouseover="over0();" onmouseleave="leave0();"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func1-gris.png') no-repeat;" id="bot-func1" onmouseover="over1();" onmouseleave="leave1();"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func2-gris.png') no-repeat;" id="bot-func2" onmouseover="over2();" onmouseleave="leave2();"></button>
+                    <button class="boton-func" style="background: url('/res/boton-func3-gris.png') no-repeat;" id="bot-func3" onmouseover="over3();" onmouseleave="leave3();"></button>
                 </div>
                 <button class="continuar-mod1" style="display: none" id="boton-continuar-mod1"></button>
                 <button class="restart-mod1" style="display: none" id="boton-restart-mod1"></button>
             </div>
         </section>
 
+        <section class="intermedio" style="margin-top: 10vw;">
+            <div class="inter2">
+                <p>Ahora que viste como funciona, necesitás saber qué provoca esto en lxs usuarixs de la app.</p>
+            </div>
+            <img src="res/corazoncitos.png" class="corazones">
+            <img src="res/flecha-abajo.png" class="flechita-inter2">
+        </section>
+
+        <section class="modulo2">
+            <div class="gradientes2">
+                <button class="boton-volver2" id="boton-volver-mod2" style="display: none;"></button>
+                <button class="boton-salir2" id="boton-salir-mod2" style="display: none;"></button>
+
+                <img src="res/cartel-mod2.png" class="cartel1-mod2">
+                <p class="tex-palanca-arriba syne-regular" id="tex-palanca-arriba" style="display: none;">Toca la palanca para continuar</p>
+                <p class="tex-palanca-abajo syne-regular"  id="tex-palanca-abajo">Toca la palanca para continuar</p>
+
+                <img src="res/tragamonedas.gif" class="tragamonedas" id="tragamonedas1">
+                <div class="info-mod2" id="info1-mod2">
+                    <p class="info-mod2-p1 syne-regular">Cuando deslizás para recorrer tu feed,<br> es como tirar una palanca.</p>
+                    <img class="manito-mod2" src="res/manito.gif">
+                    <p class="syne-regular">Esperando la proxima recompensa.</p>
+                    <img class="info-mod2-img" src="res/publicaciones.png">
+                </div>
+
+                <img src="res/tragamonedas.gif" class="tragamonedas" id="tragamonedas2" style="display: none;">
+                <div class="info-mod2" id="info2-mod2" style="display: none;">
+                    <p class="syne-regular">Las figuras llamativas y recompenzas<br>constantes.</p>
+                    <img class="info-mod2-img2" src="res/carteles.gif">
+                    <p class="syne-regular">Te hacen perder la noción del tiempo</p>
+                    <img class="info-mod2-img2" src="res/relojito.gif">
+                </div>
+
+                <img src="res/tragamonedas.gif" class="tragamonedas" id="tragamonedas3" style="display: none;">
+                <img src="res/premio1.png" class="premio1" id="premio1">
+                <div class="info-mod2" id="info3-mod2" style="display: none;">
+                    <p class="syne-regular">Muchos usuarios están atrapados en<br>este mecanismo, a tal punto que se han<br>vuelto adictos a él.</p>
+                    <img class="info-mod2-img3" src="res/esclavo.png">
+                    <p class="syne-regular">Apostando su tiempo y su atención.</p>
+                    <img class="info-mod2-img3" src="res/fichas.png">
+                </div>
+
+                <img src="res/tragamonedas2.gif" class="tragamonedas" id="tragamonedas4" style="display: none;">
+                <img src="res/premio2.png" class="premio2" id="premio2">
+                <div class="grafico" id="info4-mod2" style="display: none;">
+                    <div class="container-columnas">
+                        <div class="columnas">
+                            <h2 class="syne-regular" style="margin-top: -1vw;">66.4% sin signos de adicción.</h2>
+                            <img src="res/porcentaje1.png" class="porcentaje1" style="margin-top: -1vw;">
+                        </div>                     
+                        <div class="columnas">
+                            <h2 class="syne-regular" style="margin-top: 18vw;">26.5% leve de addición.</h2>
+                            <img src="res/porcentaje2.png" class="porcentaje1" style="margin-top: -1vw;">
+                        </div>                                
+                        <div class="columnas">
+                            <h2 class="syne-regular" style="margin-top: 25vw;">6.1% Adicción moderada.</h2>
+                            <img src="res/porcentaje3.png" class="porcentaje1" style="margin-top: 0vw;">
+                        </div> 
+                        <div class="columnas">
+                            <h2 class="syne-regular" style="margin-top: 29vw;">1% Adicción grave.</h2>
+                            <img src="res/porcentaje4.png" class="porcentaje1" style="margin-top: 0vw; width: 15%;">
+                        </div>
+                    </div>
+                    
+                    <div class="fuente-grafico">
+                        <hr>
+                        <p class="syne-regular">Un estudio publicado en el Journal of Behavioural Addictions en el que participaron 752 estudiantes<br>universitarios, demostró la existencia y prevalencia de la addición a Instagran e identificó<br>diferentes niveles de gravedad de la misma.</p>
+                    </div>
+                </div>
+
+                <button class="boton-mod2" id="bot-mod2"></button>
+            </div>
+
+        </section>
+
+        <section class="intermedio" style="margin-top: 10vw;">
+            <div class="inter2">
+                <p>Parece momento de dejar Instagram<br>por un rato, ¿Pero cómo?<br> ¡Depende de tu caso!</p>
+            </div>
+            <img src="res/flecha-derecha.png" class="flecha-derecha">
+            <img src="res/logo-ig.png" class="logo-ig-inter3">
+        </section>
+
+        <section class="modulo3">
+            <div class="gradientes3">
+                <h2 class="syne-regular">¿Cuántas horas al día pasás en Instagram?</h2>
+
+                <div class="botones-mod3">
+                    <button id="horas1" class="syne-regular">Más de 5 horas al día.</button>
+                    <button id="horas2" class="syne-regular">Entre 4 y 5 horas al día.</button>
+                    <button id="horas3" class="syne-regular">Entre 2 y 4 horas al día.</button>
+                    <button id="horas4" class="syne-regular">Entre 1 y 2 horas al día.</button>
+                    <button id="horas5" class="syne-regular">Menos de 1 hora al día.</button>
+                    <button id="horas6" class="boton-final-mod3 syne-regular">Cualquier cantidad de horas.</button>
+                </div>
+
+                <div class="contenedor-puerta" id="cont-puerta1">
+                    <h2 class="syne-regular" style="margin-left: -2.5vw; margin-bottom: 0vw;">Salí del casino.<br></h2>
+                    <img src="res/puerta1.png" onmouseover="this.src='res/puerta1-hover.png'" onmouseout="this.src='res/puerta1.png'">
+                    <p class="tex-puerta syne-regular">Desinstalá Instagram,<br>por lo menos un tiempo<br>para evitar tentaciones.</p>
+                </div>
+                <div class="contenedor-puerta" id="cont-puerta2">
+                    <h2 class="syne-regular" style="margin-left: -2.5vw; margin-bottom: 0vw;">No mires ni siquiera<br>a la lotería.</h2>
+                    <img src="res/puerta2.png" onmouseover="this.src='res/puerta2-hover.png'" onmouseout="this.src='res/puerta2.png'">
+                    <p class="tex-puerta syne-regular">Sacá las notificaciones. A<br>veces agarrás el telefono<br>para mirar una notificación<br>y se convierte en media<br>hora o más consumiendo<br>contenido.</p>
+                </div>
+                <div class="contenedor-puerta" id="cont-puerta3">
+                    <h2 class="syne-regular" style="margin-left: -2.5vw; margin-bottom: 0vw;">Podés volver a<br>jugar de a poco</h2>
+                    <img src="res/puerta3.png" onmouseover="this.src='res/puerta3-hover.png'" onmouseout="this.src='res/puerta3.png'">
+                    <p class="tex-puerta syne-regular">Establecé un cronómetro<br>para limitar el tiempo que<br>pasás en Instagram.<br>Cuando el tiempo se acabe,<br>cerrá la app.</p>
+                </div>
+                <div class="contenedor-puerta" id="cont-puerta4">
+                    <h2 class="syne-regular" style="margin-left: -2.5vw; margin-bottom: 0vw;">Conviertete en<br>un espectador.</h2>
+                    <img src="res/puerta4.png" onmouseover="this.src='res/puerta4-hover.png'" onmouseout="this.src='res/puerta4.png'">
+                    <p class="tex-puerta syne-regular">En lugar de participar<br>activamente, intentá ser<br>solo un usuarix pasivx<br>por un tiempo</p>
+                </div>
+                <div class="contenedor-puerta" id="cont-puerta5">
+                    <h2 class="syne-regular" style="margin-left: -2.5vw; margin-bottom: 0vw;">Evitá pasar por en<br>frente del casino.</h2>
+                    <img src="res/puerta5.png" onmouseover="this.src='res/puerta5-hover.png'" onmouseout="this.src='res/puerta5.png'">
+                    <p class="tex-puerta syne-regular">No cargues el celular al lado<br>de la cama. Esto aumentará<br>la calidad del sueño y te<br>permitira descansar mejor.</p>
+                </div>
+                <div class="contenedor-puerta" id="cont-puerta6">
+                    <h2 class="syne-regular" style="margin-left: -2.5vw; margin-bottom: 0vw;">Cambiá los habitos.</h2>
+                    <img src="res/puerta6.png" onmouseover="this.src='res/puerta6-hover.png'" onmouseout="this.src='res/puerta6.png'">
+                    <p class="tex-puerta syne-regular">Reemplazá el habito de verificar<br>constantemente el celular por otros<br>más saludables. Podes leer un<br>libro o escuchar música.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <a class="link" href="html/Fuentes.html">Fuentes →</a>
+        </div>
+
+
     </body>
-    <script src="/js/moduo1.js"></script>
+    <script src="/js/modulo1.js"></script>
+    <script src="/js/modulo2.js"></script>
+    <script src="/js/modulo3.js"></script>
 </html>

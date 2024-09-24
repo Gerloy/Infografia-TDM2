@@ -1,0 +1,69 @@
+.modulo3{
+    background: url("../res/fondo-mod3.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gradientes3{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, #000000CC 0%, #00000000 20%, #00000000 80%, #000000CC 100%);
+    width: 100%;
+    height: 100%;
+    padding-top: 4vw;
+}
+
+
+.modulo3 h2{
+    color: #FFFFFF;
+    font-size: 2vw;
+    margin-left: 5vw;
+}
+
+.botones-mod3{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 20%;
+    height: 50vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+.botones-mod3 button{
+    height: 3vw;
+    color: #FFFFFF;
+    border-radius: 0.5vw;
+    border-color: #FF9B45;
+    border-width: 0.005vw;;
+    font-size: 1.5vw;
+    background-color: #010815;
+}
+
+.botones-mod3 button:hover{
+    background-color: #051C4A;
+}
+
+.boton-final-mod3{
+    width: 110%;
+}
+
+.contenedor-puerta{
+    display: none;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -50vw;
+}
+
+.tex-puerta{
+    color: #FFFFFF;
+    font-size: 1.25vw;
+    position: absolute;
+    margin-top: -16vw;
+    margin-left: 15vw;
+}

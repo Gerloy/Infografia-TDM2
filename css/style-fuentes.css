@@ -1,0 +1,28 @@
+body{
+    background-color: #000000;
+}
+
+.volver{
+    background: url("../res/volver-fuentes.png") no-repeat;
+    background-size: contain;
+    border: none;
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: -2vw;
+}
+
+.links{
+    width: 100%;
+    height: auto;
+    margin-top: 5vw;
+}
+
+a{
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-top: 10vw;
+    font-size: 1.5vw;
+    line-height: 200%;
+}

@@ -1,0 +1,71 @@
+.intermedio{
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+.cartelito{
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    background: url("../res/cartel-casino.png") no-repeat;
+    background-size:contain;
+    width: 55%;
+    height: 30vw;
+    margin-left: 25%;
+    padding-top: 1.2vw;
+}
+
+.cartelito p{
+    color: #F5F5F5;
+    font-family: Cambria;
+    font-size: 2.2vw;
+    margin-left: 3.75vw;
+    margin-right: 10.5vw;
+}
+
+.inter2{
+    margin-top: 2vh;
+    margin-bottom: 0px;
+    width: 55%;
+    height: 30vw;
+    margin-left: 25%;
+    padding-top: 1.75vw;
+}
+
+.inter2 p{
+    color: #F5F5F5;
+    font-size: 2.2vw;
+    font-family: Cambria;
+    margin-left: -5vw;
+    margin-right: 10.5vw;
+}
+
+.corazones{
+    width: 17.5%;
+    height: auto;
+    position: absolute;
+    margin-top: -40vw;
+}
+
+.flechita-inter2{
+    width: 4vw;
+    height: auto;
+    position: absolute;
+    margin-left: 92%;
+    margin-top: -10vw;
+}
+
+.flecha-derecha{
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    margin-top: -40vw;
+}
+
+.logo-ig-inter3{
+    width: 5vw;
+    height: auto;
+    position: absolute;
+    margin-left: 94%;
+    margin-top: -20vw;
+}
